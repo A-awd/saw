@@ -1,28 +1,9 @@
-# AI Agent Quickstart
+# Deprecated global compatibility path
 
-## Before Work
+Status: Deprecated
 
-1. Identify the repository.
-2. Read `AGENTS.md`.
-3. Read `docs/ai/OPERATING_MODEL.md`.
-4. Read `docs/ai/REPO_HEALTH.md`.
-5. Check open issues/PRs when possible.
+Replacement: https://github.com/A-awd/ai-operating-system/blob/main/onboarding/ai-agent-quickstart.md
 
-## During Work
+This historical path contained global AI operating-system seed material. Its useful content and history are preserved, and the active global version belongs in `A-awd/ai-operating-system`.
 
-- Keep changes scoped.
-- Preserve existing user work.
-- Prefer deterministic tools and tests.
-- Avoid destructive commands.
-- Never expose secrets.
-
-## After Work
-
-Report:
-
-- changed files,
-- verification,
-- residual risks,
-- next recommended task.
-
-Durable decisions go into GitHub, not chat only.
+Do not use this file as a Saw Production standard, prompt, decision, template, workflow, or operational memory. Active Saw Production context starts at the repository-root `README.md`, `AGENTS.md`, `STATE.md`, `HANDOFF.md`, `DECISIONS.md`, and `LAUNCHER.md`.
