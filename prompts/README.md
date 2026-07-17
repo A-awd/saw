@@ -1,20 +1,9 @@
-# Prompt Management
+# Deprecated global compatibility path
 
-Prompts are versioned operational assets.
+Status: Deprecated
 
-## Folders
+Replacement: https://github.com/A-awd/ai-operating-system/blob/main/prompts/README.md
 
-```text
-prompts/
-  claude/        # architecture and planning prompts
-  codex/         # execution, repo maintenance, migration prompts
-  gemini/        # research, critique, comparison prompts
-  shared/        # model-neutral task contracts
-```
+This historical path contained global AI operating-system seed material. Its useful content and history are preserved, and the active global version belongs in `A-awd/ai-operating-system`.
 
-## Rules
-
-- Prompts must state inputs, expected outputs, and safety constraints.
-- Prompts must not contain secrets.
-- Repo-specific prompts should link back to the repo and issue/PR context.
-- When a prompt changes behavior materially, update the changelog or related issue.
+Do not use this file as a Saw Production standard, prompt, decision, template, workflow, or operational memory. Active Saw Production context starts at the repository-root `README.md`, `AGENTS.md`, `STATE.md`, `HANDOFF.md`, `DECISIONS.md`, and `LAUNCHER.md`.
