@@ -1,27 +1,9 @@
-# Repo Health
+# Deprecated global compatibility path
 
-## Status
+Status: Deprecated
 
-- Maturity: unknown
-- Production risk: unknown
-- Data sensitivity: unknown
-- Deployment path: unknown
+Replacement: https://github.com/A-awd/ai-operating-system/blob/main/templates/project-template/docs/ai/REPO_HEALTH.md
 
-## Required Checks
+This historical path contained global AI operating-system seed material. Its useful content and history are preserved, and the active global version belongs in `A-awd/ai-operating-system`.
 
-- [ ] README explains product and setup.
-- [ ] AGENTS.md exists.
-- [ ] `.env.example` exists if env vars are required.
-- [ ] CI exists for lint/test/build where practical.
-- [ ] Supabase migrations are additive and reviewed.
-- [ ] Logs and backups are documented.
-- [ ] No secrets committed.
-- [ ] Architecture docs exist for major systems.
-
-## Known Risks
-
-Add risks here as they are discovered.
-
-## Next Hardening Steps
-
-Add deterministic next actions here.
+Do not use this file as a Saw Production standard, prompt, decision, template, workflow, or operational memory. Active Saw Production context starts at the repository-root `README.md`, `AGENTS.md`, `STATE.md`, `HANDOFF.md`, `DECISIONS.md`, and `LAUNCHER.md`.
