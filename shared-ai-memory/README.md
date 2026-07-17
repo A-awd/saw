@@ -1,30 +1,9 @@
-# Shared AI Memory
+# Deprecated global compatibility path
 
-Shared AI memory is durable, explicit, and GitHub-native.
+Status: Deprecated
 
-It is not chat history. It is the curated memory that any future AI model or human engineer can trust.
+Replacement: https://github.com/A-awd/ai-operating-system/blob/main/shared-ai-memory/README.md
 
-## Memory Types
+This historical path contained global AI operating-system seed material. Its useful content and history are preserved, and the active global version belongs in `A-awd/ai-operating-system`.
 
-- `index/`: maps where memory lives.
-- `entities/`: durable records for businesses, systems, products, people roles, vendors, and tools.
-- `projects/`: project summaries, ownership, current state, and canonical repos.
-- `sessions/`: important session summaries that must survive model context loss.
-
-## Rules
-
-- Store facts, decisions, and links. Do not store secrets.
-- Prefer stable identifiers: repo names, issue numbers, PR numbers, migration names, project IDs.
-- Every memory entry must be useful to a future engineer who has no chat context.
-- If memory becomes outdated, append a correction or update the record with a dated note.
-
-## Memory Hierarchy
-
-1. Source code, migrations, and workflows.
-2. Issues and pull requests.
-3. Architecture decisions and runbooks.
-4. Repo health records.
-5. Shared AI memory indexes.
-6. Chat summaries.
-
-The higher item wins when there is conflict.
+Do not use this file as a Saw Production standard, prompt, decision, template, workflow, or operational memory. Active Saw Production context starts at the repository-root `README.md`, `AGENTS.md`, `STATE.md`, `HANDOFF.md`, `DECISIONS.md`, and `LAUNCHER.md`.
