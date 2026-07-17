@@ -1,36 +1,9 @@
-# AI Operating Model
+# Deprecated global compatibility path
 
-## Repository Role
+Status: Deprecated
 
-Describe what this repo owns, what it does not own, and which business or product it supports.
+Replacement: https://github.com/A-awd/ai-operating-system/blob/main/templates/project-template/docs/ai/OPERATING_MODEL.md
 
-## AI Roles
+This historical path contained global AI operating-system seed material. Its useful content and history are preserved, and the active global version belongs in `A-awd/ai-operating-system`.
 
-- Claude: architecture and planning.
-- Codex: implementation and verification.
-- Gemini: research and review.
-
-## Durable Memory
-
-Durable memory lives in:
-
-- GitHub issues,
-- pull requests,
-- `docs/architecture/`,
-- `docs/ai/REPO_HEALTH.md`,
-- migrations and runbooks.
-
-## Data and Secrets
-
-- Secrets live outside GitHub.
-- `.env.example` documents names only.
-- Production data belongs in Supabase or approved production systems.
-
-## Standard Workflow
-
-1. Convert request into a GitHub issue or PR task.
-2. Claude clarifies architecture when needed.
-3. Codex implements on a branch.
-4. Tests and migration checks run.
-5. PR records the durable decision and verification.
-6. Merge only after risk is understood.
+Do not use this file as a Saw Production standard, prompt, decision, template, workflow, or operational memory. Active Saw Production context starts at the repository-root `README.md`, `AGENTS.md`, `STATE.md`, `HANDOFF.md`, `DECISIONS.md`, and `LAUNCHER.md`.
