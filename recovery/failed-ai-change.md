@@ -1,20 +1,9 @@
-# Recovery: Failed AI Change
+# Deprecated global compatibility path
 
-## Symptoms
+Status: Deprecated
 
-- AI change breaks build, tests, UX, data, or deployment.
-- PR scope is too broad.
-- Agent touched unrelated files.
+Replacement: https://github.com/A-awd/ai-operating-system/blob/main/recovery/failed-ai-change.md
 
-## Steps
+This historical path contained global AI operating-system seed material. Its useful content and history are preserved, and the active global version belongs in `A-awd/ai-operating-system`.
 
-1. Stop further changes on the same branch.
-2. Identify exact files changed.
-3. Run deterministic tests/checks.
-4. Revert only the bad change, not unrelated user work.
-5. Preserve evidence in PR comments.
-6. Split future work into smaller tasks.
-
-## Rule
-
-Do not hide failed AI work. Capture the failure mode so future agents improve.
+Do not use this file as a Saw Production standard, prompt, decision, template, workflow, or operational memory. Active Saw Production context starts at the repository-root `README.md`, `AGENTS.md`, `STATE.md`, `HANDOFF.md`, `DECISIONS.md`, and `LAUNCHER.md`.
