@@ -1,33 +1,9 @@
-# ADR-0001: GitHub as AI Operating System
+# Deprecated global compatibility path
 
-## Status
+Status: Deprecated
 
-Accepted
+Replacement: https://github.com/A-awd/ai-operating-system/blob/main/decisions/ADR-0001-github-as-ai-operating-system.md
 
-## Context
+This historical path contained global AI operating-system seed material. Its useful content and history are preserved, and the active global version belongs in `A-awd/ai-operating-system`.
 
-The ecosystem uses Claude, Codex, Gemini, MCP, Supabase, n8n, Shopify, multiple businesses, multiple devices, and multiple AI workflows.
-
-Chat memory is fragmented and temporary. Repositories and GitHub issues/PRs are durable, reviewable, and linkable.
-
-## Decision
-
-GitHub is the permanent business operating system, long-term AI memory, and coordination layer.
-
-AI models coordinate through:
-
-- repositories,
-- issues,
-- pull requests,
-- architecture docs,
-- runbooks,
-- migrations,
-- versioned prompts.
-
-## Consequences
-
-- Every project needs AI coordination files.
-- Important decisions become ADRs or GitHub issues.
-- Supabase remains the production data layer.
-- n8n remains the deterministic automation layer.
-- Chat summaries are useful but not authoritative.
+Do not use this file as a Saw Production standard, prompt, decision, template, workflow, or operational memory. Active Saw Production context starts at the repository-root `README.md`, `AGENTS.md`, `STATE.md`, `HANDOFF.md`, `DECISIONS.md`, and `LAUNCHER.md`.
