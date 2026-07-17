@@ -1,31 +1,9 @@
-# Ecosystem Map
+# Deprecated global compatibility path
 
-## GitHub Account
+Status: Deprecated
 
-- Owner: `A-awd`
-- Organizations: none observed
-- Accessible repositories: 7
+Replacement: https://github.com/A-awd/ai-operating-system/blob/main/shared-ai-memory/index/ecosystem-map.md
 
-## Repositories
+This historical path contained global AI operating-system seed material. Its useful content and history are preserved, and the active global version belongs in `A-awd/ai-operating-system`.
 
-| Repo | Visibility | Class | Current Role | Risk |
-|---|---:|---|---|---|
-| `A-awd/yoright` | public | `platform-monorepo` | Online travel agency platform | high |
-| `A-awd/rocantis-store` | private | `commerce-shopify` | Shopify theme/store | medium |
-| `A-awd/oleel-shopify` | private | `commerce-shopify` | Shopify theme, Dawn-derived | medium |
-| `A-awd/jwleria` | public | `app-react-supabase` | Lovable-origin React/Supabase app | medium |
-| `A-awd/jwleria-s-gembox` | private | `app-react-supabase` | React/Supabase sibling or variant | medium |
-| `A-awd/calapres` | public | `app-react-supabase` | React/Supabase app with tests | medium |
-| `A-awd/SAW` | public | `ops-ai-os-seed` | Public non-secret AI OS seed | low |
-
-## Coordination Rule
-
-Every repo should contain:
-
-- `AGENTS.md`
-- `docs/ai/OPERATING_MODEL.md`
-- `docs/ai/REPO_HEALTH.md`
-- `.github/pull_request_template.md`
-- `.github/ISSUE_TEMPLATE/ai-task.yml`
-
-These files were seeded across the accessible ecosystem.
+Do not use this file as a Saw Production standard, prompt, decision, template, workflow, or operational memory. Active Saw Production context starts at the repository-root `README.md`, `AGENTS.md`, `STATE.md`, `HANDOFF.md`, `DECISIONS.md`, and `LAUNCHER.md`.
