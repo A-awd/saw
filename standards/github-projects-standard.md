@@ -1,30 +1,9 @@
-# GitHub Projects Standard
+# Deprecated global compatibility path
 
-## Fields
+Status: Deprecated
 
-- Area
-- Repo
-- Agent
-- Risk
-- Status
-- Decision Required
-- Due
+Replacement: https://github.com/A-awd/ai-operating-system/blob/main/standards/github-projects-standard.md
 
-## Status Flow
+This historical path contained global AI operating-system seed material. Its useful content and history are preserved, and the active global version belongs in `A-awd/ai-operating-system`.
 
-Inbox -> Planned -> In Progress -> Review -> Done
-
-Blocked can be used from any status.
-
-## Views
-
-- AI OS
-- Production Apps
-- Commerce
-- Automation
-- High Risk
-- Decisions Needed
-
-## Rule
-
-Cross-repo work belongs in GitHub Projects once Projects access is available.
+Do not use this file as a Saw Production standard, prompt, decision, template, workflow, or operational memory. Active Saw Production context starts at the repository-root `README.md`, `AGENTS.md`, `STATE.md`, `HANDOFF.md`, `DECISIONS.md`, and `LAUNCHER.md`.
