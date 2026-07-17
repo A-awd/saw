@@ -1,26 +1,9 @@
-# ADR-0002: Multi-Agent Role Contract
+# Deprecated global compatibility path
 
-## Status
+Status: Deprecated
 
-Accepted
+Replacement: https://github.com/A-awd/ai-operating-system/blob/main/decisions/ADR-0002-role-contract.md
 
-## Context
+This historical path contained global AI operating-system seed material. Its useful content and history are preserved, and the active global version belongs in `A-awd/ai-operating-system`.
 
-Different AI models are useful for different work. Without clear roles, outputs become duplicated, conflicting, or temporary.
-
-## Decision
-
-Use this role contract:
-
-- Claude: architect, strategist, decision framer.
-- Codex: execution engineer, implementation, tests, migrations, repository operations.
-- Gemini: researcher, critic, comparison engine, second-pass reviewer.
-- MCP: connector/tool bridge.
-- Supabase: production data system.
-- n8n: deterministic automation runtime.
-
-## Consequences
-
-- Planning and implementation are separated.
-- Durable work lands in GitHub.
-- Every agent must preserve existing repo context and avoid destructive changes.
+Do not use this file as a Saw Production standard, prompt, decision, template, workflow, or operational memory. Active Saw Production context starts at the repository-root `README.md`, `AGENTS.md`, `STATE.md`, `HANDOFF.md`, `DECISIONS.md`, and `LAUNCHER.md`.
