@@ -1,22 +1,9 @@
-# AGENTS.md
+# Deprecated global compatibility path
 
-This repository participates in the A-awd GitHub-first AI operating system.
+Status: Deprecated
 
-## Role Contract
+Replacement: https://github.com/A-awd/ai-operating-system/blob/main/templates/project-template/AGENTS.md
 
-- Claude is architect: product architecture, technical decisions, long-term design.
-- Codex is execution engineer: implementation, tests, migrations, repo maintenance.
-- Gemini is reviewer/researcher: external comparison, critique, broad research.
+This historical path contained global AI operating-system seed material. Its useful content and history are preserved, and the active global version belongs in `A-awd/ai-operating-system`.
 
-## Rules
-
-- Read `docs/ai/OPERATING_MODEL.md` before substantial work.
-- Preserve existing work and Git history.
-- Never commit secrets or private customer data.
-- Prefer deterministic scripts and tests over AI-only judgment.
-- Prefer additive migrations and reversible changes.
-- Record durable decisions in GitHub issues, PRs, or `docs/architecture/`.
-
-## Verification
-
-Every implementation should state what was tested, what was not tested, and what operational risk remains.
+Do not use this file as a Saw Production standard, prompt, decision, template, workflow, or operational memory. Active Saw Production context starts at the repository-root `README.md`, `AGENTS.md`, `STATE.md`, `HANDOFF.md`, `DECISIONS.md`, and `LAUNCHER.md`.
