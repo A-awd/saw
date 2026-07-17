@@ -1,27 +1,9 @@
-# Automation Standard
+# Deprecated global compatibility path
 
-n8n and GitHub Actions should run deterministic workflows. AI should design and maintain workflows, but production automation should not depend on vague prompt loops.
+Status: Deprecated
 
-## Workflow Classes
+Replacement: https://github.com/A-awd/ai-operating-system/blob/main/docs/standards/automation-standard.md
 
-- `ci`: lint, test, typecheck, build.
-- `deploy`: controlled release or publish flow.
-- `sync`: pull data from external systems into approved stores.
-- `audit`: scheduled health checks, drift checks, backup checks.
-- `notify`: Slack/email/issue creation for actionable events.
+This historical path contained global AI operating-system seed material. Its useful content and history are preserved, and the active global version belongs in `A-awd/ai-operating-system`.
 
-## Required Properties
-
-- Idempotent where possible.
-- Logs structured status and failure reasons.
-- Retries transient external failures.
-- Avoids duplicate writes through stable keys.
-- Fails closed when secrets or required inputs are missing.
-- Creates GitHub issues for human follow-up when automation cannot decide safely.
-
-## n8n Discipline
-
-- One workflow per durable business process.
-- Use GitHub issues/PRs for workflow change requests.
-- Keep workflow credentials in n8n credential store, never in exported JSON.
-- Export sanitized workflow definitions into GitHub when possible.
+Do not use this file as a Saw Production standard, prompt, decision, template, workflow, or operational memory. Active Saw Production context starts at the repository-root `README.md`, `AGENTS.md`, `STATE.md`, `HANDOFF.md`, `DECISIONS.md`, and `LAUNCHER.md`.
