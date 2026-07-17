@@ -22,3 +22,4 @@ No employee, applicant, customer, booking, legal, payroll, government-service, p
 - [Project overview](docs/PROJECT-OVERVIEW.md)
 - [Migration source index](migration/SOURCE-INDEX.md)
 - [Migration report](migration/MIGRATION-REPORT.md)
+- [Deprecated global content manifest](migration/DEPRECATED-GLOBAL-CONTENT.md)
