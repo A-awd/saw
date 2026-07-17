@@ -1,32 +1,9 @@
-# Cross-Repo Coordination Standard
+# Deprecated global compatibility path
 
-## Canonical Tracking
+Status: Deprecated
 
-Every cross-repo initiative needs one canonical tracking issue.
+Replacement: https://github.com/A-awd/ai-operating-system/blob/main/standards/cross-repo-coordination-standard.md
 
-Choose the canonical repo by this order:
+This historical path contained global AI operating-system seed material. Its useful content and history are preserved, and the active global version belongs in `A-awd/ai-operating-system`.
 
-1. AI OS repo for standards, templates, and ecosystem work.
-2. Highest-risk affected product repo.
-3. Shared infrastructure repo.
-
-## Required Tracking Issue Sections
-
-- Goal.
-- Repos affected.
-- Change order.
-- Risk areas.
-- Verification plan.
-- Rollback plan.
-- Decision links.
-
-## Sequencing
-
-- Standards first.
-- Templates second.
-- Product repo rollout third.
-- Automation last.
-
-## Safety
-
-Do not coordinate destructive changes across repos without explicit human approval.
+Do not use this file as a Saw Production standard, prompt, decision, template, workflow, or operational memory. Active Saw Production context starts at the repository-root `README.md`, `AGENTS.md`, `STATE.md`, `HANDOFF.md`, `DECISIONS.md`, and `LAUNCHER.md`.
