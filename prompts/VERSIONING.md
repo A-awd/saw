@@ -1,35 +1,9 @@
-# Prompt Versioning
+# Deprecated global compatibility path
 
-Prompts are versioned operational assets.
+Status: Deprecated
 
-## Version Format
+Replacement: https://github.com/A-awd/ai-operating-system/blob/main/prompts/VERSIONING.md
 
-Use semantic versions:
+This historical path contained global AI operating-system seed material. Its useful content and history are preserved, and the active global version belongs in `A-awd/ai-operating-system`.
 
-```text
-name@major.minor.patch
-```
-
-Examples:
-
-- `codex-execution-engineer@1.0.0`
-- `claude-architect@1.0.0`
-- `gemini-reviewer@1.0.0`
-
-## Change Rules
-
-- Patch: wording clarification, no behavior change.
-- Minor: adds capability or new output section.
-- Major: changes role, safety behavior, or expected output.
-
-## Required Prompt Header
-
-Every prompt must state:
-
-- name,
-- version,
-- owner,
-- purpose,
-- allowed inputs,
-- required outputs,
-- safety constraints.
+Do not use this file as a Saw Production standard, prompt, decision, template, workflow, or operational memory. Active Saw Production context starts at the repository-root `README.md`, `AGENTS.md`, `STATE.md`, `HANDOFF.md`, `DECISIONS.md`, and `LAUNCHER.md`.
