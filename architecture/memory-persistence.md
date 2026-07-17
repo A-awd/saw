@@ -1,33 +1,9 @@
-# Long-Term Memory Persistence
+# Deprecated global compatibility path
 
-## Principle
+Status: Deprecated
 
-Memory must be queryable without relying on a single model vendor or chat window.
+Replacement: https://github.com/A-awd/ai-operating-system/blob/main/architecture/memory-persistence.md
 
-## Persistence Layers
+This historical path contained global AI operating-system seed material. Its useful content and history are preserved, and the active global version belongs in `A-awd/ai-operating-system`.
 
-- Git repository history.
-- Issues and PRs.
-- ADRs.
-- Repo health docs.
-- Shared AI memory.
-- Sanitized workflow definitions.
-
-## What Belongs in Memory
-
-- Business/project purpose.
-- Architecture decisions.
-- Integration boundaries.
-- Safety constraints.
-- Known risks.
-- Operational runbooks.
-- Migration history.
-- Repo ownership/canonical status.
-
-## What Does Not Belong
-
-- Secrets.
-- Raw customer/private data.
-- Financial exports.
-- Credentials.
-- One-time scratch notes with no future value.
+Do not use this file as a Saw Production standard, prompt, decision, template, workflow, or operational memory. Active Saw Production context starts at the repository-root `README.md`, `AGENTS.md`, `STATE.md`, `HANDOFF.md`, `DECISIONS.md`, and `LAUNCHER.md`.
