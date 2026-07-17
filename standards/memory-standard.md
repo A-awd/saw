@@ -1,22 +1,9 @@
-# Memory Standard
+# Deprecated global compatibility path
 
-## Required Memory Files Per Repo
+Status: Deprecated
 
-- `AGENTS.md`
-- `docs/ai/OPERATING_MODEL.md`
-- `docs/ai/REPO_HEALTH.md`
+Replacement: https://github.com/A-awd/ai-operating-system/blob/main/standards/memory-standard.md
 
-## Required Memory Files In AI OS
+This historical path contained global AI operating-system seed material. Its useful content and history are preserved, and the active global version belongs in `A-awd/ai-operating-system`.
 
-- `shared-ai-memory/index/ecosystem-map.md`
-- ADRs in `decisions/`
-- reusable patterns in `patterns/`
-- recovery docs in `recovery/`
-- onboarding docs in `onboarding/`
-
-## Update Rules
-
-- Update memory when facts change.
-- Link to issues/PRs where possible.
-- Keep public memory non-secret.
-- Prefer short, accurate records over long narrative.
+Do not use this file as a Saw Production standard, prompt, decision, template, workflow, or operational memory. Active Saw Production context starts at the repository-root `README.md`, `AGENTS.md`, `STATE.md`, `HANDOFF.md`, `DECISIONS.md`, and `LAUNCHER.md`.
