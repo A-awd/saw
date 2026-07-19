@@ -11,7 +11,7 @@
 
 ## Public-safe conclusions retained
 
-`saw-production` is the active canonical production-business project. Its high-level scope includes studio and booking coordination, workforce and recruitment workflows, and customer-relationship workflows. The repository's current public visibility blocks merge of a private-memory foundation.
+`saw` is the active canonical production-business project. Its high-level scope includes studio and booking coordination, workforce and recruitment workflows, and customer-relationship workflows. The repository's current public visibility blocks merge of a private-memory foundation.
 
 ## Material deliberately not copied
 
