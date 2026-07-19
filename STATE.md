@@ -1,6 +1,6 @@
 # Current state
 
-- Canonical name: `saw-production`
+- Canonical name: `saw`
 - Canonical status: active
 - Repository role: business project repository
 - Current visibility: public
@@ -22,7 +22,7 @@ Obtain and execute a separately authorized visibility decision. After privacy is
 ## Repository synchronization evidence
 
 - Verified: 2026-07-18
-- Canonical repository: `A-awd/saw-production`
+- Canonical repository: `A-awd/saw`
 - Approved default branch: `main`
 - Verified effective ref: `migration/one-brain-foundation`
 - Verified baseline revision: `0463bb4e72b1b71ed5a2c14b758a13d9bf5e6b6c`
