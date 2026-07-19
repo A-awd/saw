@@ -1,6 +1,6 @@
-# saw-production
+# saw
 
-`saw-production` is the canonical One Brain business project for high-level coordination of studio production, booking, workforce operations, and customer-relationship workflows.
+`saw` is the canonical One Brain business project for high-level coordination of studio production, booking, workforce operations, and customer-relationship workflows.
 
 GitHub is the only permanent source of truth. Platform-local memory and uncommitted files are non-authoritative.
 
