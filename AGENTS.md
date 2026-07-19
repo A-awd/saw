@@ -1,6 +1,6 @@
 # Agent instructions
 
-These instructions apply to Claude, Codex, ChatGPT, Hermes, and future agents working on `saw-production`.
+These instructions apply to Claude, Codex, ChatGPT, Hermes, and future agents working on `saw`.
 
 ## Authority
 
@@ -34,7 +34,7 @@ At session start, read `README.md`, `AGENTS.md`, `STATE.md`, `HANDOFF.md`, `DECI
 
 ## Required One Brain synchronization contract
 
-Before work, every supported agent must verify the canonical remote `A-awd/saw-production`, inspect the working tree, current branch, latest local commit, latest GitHub commit, and synchronization state, then continue only from the latest verified GitHub state. Read `README.md`, `AGENTS.md`, `STATE.md`, `HANDOFF.md`, `DECISIONS.md`, and `LAUNCHER.md`, plus relevant linked decisions, workflows, and security guidance.
+Before work, every supported agent must verify the canonical remote `A-awd/saw`, inspect the working tree, current branch, latest local commit, latest GitHub commit, and synchronization state, then continue only from the latest verified GitHub state. Read `README.md`, `AGENTS.md`, `STATE.md`, `HANDOFF.md`, `DECISIONS.md`, and `LAUNCHER.md`, plus relevant linked decisions, workflows, and security guidance.
 
 After meaningful work, validate the exact change; update `STATE.md` and `HANDOFF.md`; update `DECISIONS.md` when a durable decision is made; record blockers, risks, and unfinished or unpushed work; commit and push when authorized; and verify that GitHub contains the reported revision. If push is unavailable or unauthorized, record the exact unpushed state and do not claim durable completion.
 
