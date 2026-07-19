@@ -1,7 +1,7 @@
 # Launcher Protocol
 
-Canonical project: `saw-production`
-Canonical repository: `A-awd/saw-production`
+Canonical project: `saw`
+Canonical repository: `A-awd/saw`
 Default branch: `main`
 Current approved One Brain foundation ref: `migration/one-brain-foundation`
 
