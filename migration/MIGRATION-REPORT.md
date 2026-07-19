@@ -2,7 +2,7 @@
 
 ## Result
 
-A strictly public-safe One Brain documentation foundation was prepared for `saw-production` on the migration branch. It establishes the canonical identity and high-level boundary without migrating operational memory.
+A strictly public-safe One Brain documentation foundation was prepared for `saw` on the migration branch. It establishes the canonical identity and high-level boundary without migrating operational memory.
 
 Former global AI operating-system seed documents are preserved in Git history and explicitly retired on the migration branch. The active global copies live in `A-awd/ai-operating-system`; see [DEPRECATED-GLOBAL-CONTENT.md](DEPRECATED-GLOBAL-CONTENT.md).
 
