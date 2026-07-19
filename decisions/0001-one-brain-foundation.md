@@ -9,7 +9,7 @@ The project needed a canonical name and platform-neutral operating foundation, b
 
 ## Decision
 
-Use `A-awd/saw-production` as the canonical identity and prepare only public-safe high-level documentation on the migration branch. Preserve existing useful history. Do not add private operational memory and do not merge the foundation while visibility remains public.
+Use `A-awd/saw` as the canonical identity and prepare only public-safe high-level documentation on the migration branch. Preserve existing useful history. Do not add private operational memory and do not merge the foundation while visibility remains public.
 
 ## Consequences
 
