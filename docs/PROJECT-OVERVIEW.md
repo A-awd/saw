@@ -1,6 +1,6 @@
 # Project overview
 
-`saw-production` is the canonical umbrella for a production business's studio and booking coordination, workforce operations, recruitment workflow, and customer-relationship workflow.
+`saw` is the canonical umbrella for a production business's studio and booking coordination, workforce operations, recruitment workflow, and customer-relationship workflow.
 
 This overview is intentionally high level because the repository is public. It does not describe staff, applicants, customers, bookings, schedules, systems, commercial terms, internal procedures, or production operations.
 
