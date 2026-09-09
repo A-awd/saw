@@ -1,25 +1,9 @@
-# saw
+# Historical predecessor — MA Production
 
-`saw` is the canonical One Brain business project for high-level coordination of studio production, booking, workforce operations, and customer-relationship workflows.
+This repository is retired from active company work. Continue in https://github.com/A-awd/ma-production on main. Read its AGENTS.md, STATE.md and HANDOFF.md.
 
-GitHub is the only permanent source of truth. Platform-local memory and uncommitted files are non-authoritative.
+Original saw history is preserved here and exact source snapshots are recorded in the canonical repository under migration/legacy-snapshots/. This repository's older instructions are historical evidence, not active authority.
 
-## Current migration constraint
+The owner approved consolidation of SAW, bookings, production and Synology Mada. Financial Audit is explicitly excluded and its separate repository/service remains outside this transition. Personal Synology AWD is also excluded.
 
-The repository is currently public. This foundation is intentionally limited to public-safe, high-level documentation. The migration branch must not be merged until the approved repository-visibility boundary is resolved without changing settings as part of this migration run.
-
-## Repository boundary
-
-No employee, applicant, customer, booking, legal, payroll, government-service, production, or commercial records belong in this public documentation foundation. Do not include schedules, contact information, contracts, invoices, credentials, internal procedures, production secrets, or raw conversations.
-
-## Start here
-
-- [Agent instructions](AGENTS.md)
-- [Current state](STATE.md)
-- [Handoff](HANDOFF.md)
-- [Decision index](DECISIONS.md)
-- [Launcher standard](LAUNCHER.md)
-- [Project overview](docs/PROJECT-OVERVIEW.md)
-- [Migration source index](migration/SOURCE-INDEX.md)
-- [Migration report](migration/MIGRATION-REPORT.md)
-- [Deprecated global content manifest](migration/DEPRECATED-GLOBAL-CONTENT.md)
+Do not continue new work here or replay historical operational actions. No production system or customer/media data was changed by this retirement notice.
